@@ -28,10 +28,10 @@ repositories {
 }
 
 dependencies {
-    implementation 'commons-io:commons-io:2.6'
+    implementation('commons-io:commons-io:2.6')
 
-    testCompile 'junit:junit:4.12'
-    testCompile 'com.github.stefanbirkner:system-rules:1.16.0'
+    testImplementation('junit:junit:4.12')
+    testImplementation('com.github.stefanbirkner:system-rules:1.16.0')
 }
 
 sourceSets {

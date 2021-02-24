@@ -26,11 +26,12 @@ class PythonTask extends DefaultTask {
     @Optional
     String prefix
 
-    @Input
+    @InputFiles
     @Optional
     FileCollection includeDirs
 
     // Change this to a configuration
+    @Input
     SliceExtension sliceExt = project.slice
 
     @TaskAction
